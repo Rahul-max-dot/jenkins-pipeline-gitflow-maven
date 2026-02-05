@@ -7,6 +7,7 @@
     <groupId>com.test.service</groupId>
     <artifactId>test-service</artifactId>
     <version>1.5-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -37,6 +38,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -50,7 +52,8 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.7.14</version>
+                
+                <version>1.5.22.RELEASE</version>
             </plugin>
             <plugin>
                 <groupId>com.spotify</groupId>
