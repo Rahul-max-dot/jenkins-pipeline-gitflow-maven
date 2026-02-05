@@ -22,7 +22,7 @@
         <dependencies>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-consul-dependencies</artifactId>
+                <artifactId>spring-cloud-dependencies</artifactId>
                 <version>Edgware.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
